@@ -1,0 +1,23 @@
+.Header{
+    height: 80px;
+    display: flex;
+    background-color: lightgray;
+}
+
+.Image{
+    height: 55px;
+    width: 105px;
+    padding-top: 10px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 550px;
+    padding-bottom: 9px;
+    color: maroon;
+}

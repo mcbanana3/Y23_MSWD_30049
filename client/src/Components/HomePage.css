@@ -1,0 +1,74 @@
+.WelcomeText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Pic1{
+    display: flexbox;
+    padding-top: 50px;
+    padding-left: 280px;
+    height: 100px;
+    width: 100px;
+}
+
+.Pic2{
+    display: flexbox;
+    padding-left: 200px;
+    height: 100px;
+    width: 100px;
+}
+
+.Pic3{
+    display: flexbox;
+    padding-left: 200px;
+    height: 100px;
+    width: 100px;
+}
+
+.Pic4{
+    display: flexbox;
+    padding-left: 200px;
+    height: 100px;
+    width: 100px;
+}
+
+.TextBox{
+    display:table;
+    margin:auto;
+    overflow: hidden;
+}
+
+.Text1{
+    display:table-cell;
+    font-size: 20px;
+    color: #337ab7;
+    padding-right: 220px;
+    padding-left: 295px;
+    overflow: hidden;
+}
+
+.Text2{
+    display:table-cell;
+    font-size: 20px;
+    color: #337ab7;
+    padding-right: 190px;
+    overflow: hidden;
+}
+
+.Text3{
+    display:table-cell;
+    font-size: 20px;
+    color: #337ab7;
+    padding-right: 200px;
+    overflow: hidden;
+}
+
+.Text4{
+    display:table-cell;
+    font-size: 20px;
+    color: #337ab7;
+    padding-right: 250px;
+    overflow: hidden;
+}

@@ -1,0 +1,47 @@
+.Nav {
+    text-align: center;
+    display: flex;
+    height: 60px;
+    background-color: lightgray;
+    border: 2px solid maroon;
+}
+
+.KL_Logo{
+    height: 45px;
+    width: 112.4px;
+    justify-content: center;
+    display: flex;
+    padding-left: 1px;
+    padding-top: 6px;
+}
+  
+.ERP_Heading{
+    align-items: center;
+    justify-content: center;
+    padding-left: 505px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: #a90000;
+}
+
+.ERP_Heading1{
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    padding-left: 10px;
+    font-style: italic;
+    color: #337AB7;
+}
+  
+.ERP_Profile{
+    height: 45px;
+    width: 45px;
+    padding-left: 520px;
+    padding-top: 7px;
+}
+  
+.ERP_Profile_heading{
+    padding-left: 10px;
+    padding-bottom: 100px;
+}

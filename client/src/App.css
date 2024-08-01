@@ -1,0 +1,15 @@
+.Sidebar{
+    height: 100%;
+    width: 200px;
+    background-color: #3A454B;
+}
+
+.App{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
