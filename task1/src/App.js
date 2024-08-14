@@ -1,24 +1,23 @@
-import './App.css';
-import Header from './Header'
-import Footer from './Footer'
-import Faculty from './Faculty';
-import Student from './Student';
-import Courses from './Courses'
-import User from './User'
+import React, { useState } from "react";
+import FeedBackForm from "./FeedbackForm.js";
+import FeedBack from "./FeedBack.js";
+import ResponsiveAppBar from "./ResponsiveAppBar.js";
 
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Faculty/>
-      <Student/>
-      <Courses/>
-      <User name = "Aryan" type = "Student"/>
-      <User name = "Chenna" type = "Student"/>
-      <User name = "Karthik" type = "Faculty"/>
-      <Footer/>
-    </div>
-  );
-}
+const App = () => {
+    <ResponsiveAppBar />
+
+    const [data, setData] = useState([]);
+
+    const addFeedback = (newFeedback) => {
+        setData([...data, newFeedback]);
+    };
+
+    return (
+        <div>
+            <FeedBackForm addFeedback={addFeedback}/>
+            <FeedBack data={data} />
+        </div>
+    );
+};
 
 export default App;
