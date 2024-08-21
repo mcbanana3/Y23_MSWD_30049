@@ -6,6 +6,11 @@ function App() {
   let age = 25;
   let l = [1,2,3,4,5,6,7,8,9,10];
 
+  let obj = {
+    name: "Aryan",
+    age: 25,
+  }
+
   return (
     <div className="App">
       <h1>{name}</h1>
@@ -16,7 +21,12 @@ function App() {
             {item}
           </div>
         )
-      })}  
+      })}
+
+      <div>
+        {obj.name}
+        {obj.age}
+      </div> 
     </div>
   );
 }
