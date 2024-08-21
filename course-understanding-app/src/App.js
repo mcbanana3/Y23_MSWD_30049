@@ -6,7 +6,7 @@ function App() {
   let age = 25;
   let l = [1,2,3,4,5,6,7,8,9,10];
 
-  let status = false;
+  let status = true;
 
   let obj = {
     name: "Aryan",
@@ -30,7 +30,7 @@ function App() {
         {obj.age}
       </div> 
 
-      {(status) ? <h1>HELLO FRIENDS</h1> : <h1>HELLO ENEMIES</h1>}
+      {(status) ? <h1 style = {{color: "Green"}}>HELLO FRIENDS</h1> : <h1 style = {{color: "Red"}}>HELLO ENEMIES</h1>}
     </div>
   );
 }
