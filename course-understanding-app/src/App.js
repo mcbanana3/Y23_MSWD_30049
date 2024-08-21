@@ -6,6 +6,8 @@ function App() {
   let age = 25;
   let l = [1,2,3,4,5,6,7,8,9,10];
 
+  let status = false;
+
   let obj = {
     name: "Aryan",
     age: 25,
@@ -27,6 +29,8 @@ function App() {
         {obj.name}
         {obj.age}
       </div> 
+
+      {(status) ? <h1>HELLO FRIENDS</h1> : <h1>HELLO ENEMIES</h1>}
     </div>
   );
 }
