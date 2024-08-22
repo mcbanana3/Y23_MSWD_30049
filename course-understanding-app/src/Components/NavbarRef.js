@@ -9,7 +9,7 @@ function NavbarRef() {
         <Container>
           <Navbar.Brand href="#home">KL Management System</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">KL LMS</Nav.Link>
+            <Nav.Link href="">KL LMS</Nav.Link>
             <Nav.Link href="#features">KLU ERP</Nav.Link>
             <Nav.Link href="#pricing">KLU WEB</Nav.Link>
           </Nav>
